@@ -11,7 +11,7 @@ namespace Books
             var context = new CCS236projectsdatabasesdatabasesBooksBooksmdfContext();
             foreach (var contextAuthor in context.Authors)
             {
-                Console.WriteLine(contextAuthor.FirstName);
+                Console.WriteLine(contextAuthor.AuthorId);
             }
             Console.WriteLine("Hello World!");
         }
